@@ -1,4 +1,4 @@
-type Message = {
+export type Message = {
     data: string;
     timestamp: Date;
     action: "sent" | "received";
